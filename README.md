@@ -40,7 +40,7 @@ Pour commencer je pars d'un arduino UNO avec un programme dans le langage d'orig
 
 ## Schema de montage
 
-![Montage Arduino](PIR_buzzer_led_bb.png) { width: 200px; }
+<img src="PIR_buzzer_led_bb.png" alt="Montage arduino" width="200">
 
 
 ## Source montage 
