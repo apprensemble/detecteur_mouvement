@@ -1,0 +1,3 @@
+[submodule "code_arduino"]
+	path = Make_PIR_Sensor
+	url = git@github.com:apprensemble/Make_PIR_Sensor.git
