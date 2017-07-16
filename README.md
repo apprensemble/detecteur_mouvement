@@ -41,7 +41,7 @@ Pour commencer je pars d'un arduino UNO avec un programme dans le langage d'orig
 - [x] Test materiel
 - [x] detecteur de presence Arduino
 - [x] detecteur de presence NodeMCU
-- [ ] transfert de messages(En cours)
+- [ ] transfert de messages(En cours voir sous module data_streaming)
 - [ ] Infra(En cours)
 - [ ] Accès et maintenance
 

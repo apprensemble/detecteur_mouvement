@@ -1,3 +1,6 @@
 [submodule "code_arduino"]
 	path = Make_PIR_Sensor
 	url = git@github.com:apprensemble/Make_PIR_Sensor.git
+[submodule "data_streaming"]
+	path = data_streaming
+	url = git@github.com:apprensemble/data_streaming.git
