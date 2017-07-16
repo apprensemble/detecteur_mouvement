@@ -6,6 +6,45 @@ Detecteur de mouvement connecté.
 Faire un detecteur de mouvement connecté à l'aide d'un nodemcu et d'un capteur de mouvement HC-SR501.
 Pour commencer je pars d'un arduino UNO avec un programme dans le langage d'origine(C/C++) ensuite je vais migrer vers le nodeMCU et redevelopper cet enorme programme :p en lua.
 
+## Etapes du projet
+
+1. Tester le materiel
+  1. NodeMCU
+  1. PIR
+1. Faire un detecteur de presence avec l'Arduino
+1. Faire un detecteur de presence avec le NodeMCU
+1. Etudier les posibilités de transfert de message
+  * Protocoles
+    * udp
+    * mqtt
+  * Framework
+    * Flink / Kafka / Aucun?
+1. Etudier l'infra
+  * Materiel
+    * batteries
+    * Serveurs
+    * Routeur
+    * Switch
+    * ???
+  * Gestion
+    * maison/ cloud / mixte?
+    * baremetal / docker / kubernetes / rancher
+1. Etudier les méthodes d'accès et de maintenance
+  * Test de vie
+  * Mises à jours
+  * Charge/echange batteries
+  * Api
+1. Et surement des choses que j'ai oublié
+
+## Où en est le projet
+
+- [x] Test materiel
+- [x] detecteur de presence Arduino
+- [x] detecteur de presence NodeMCU
+- [ ] transfert de messages(En cours)
+- [ ] Infra(En cours)
+- [ ] Accès et maintenance
+
 ## Prérequis pour la version Arduino UNO 
 
 * PIR
@@ -89,6 +128,8 @@ http://nodemcu.com/index_en.html
 https://github.com/nodemcu/nodemcu-firmware
 
 https://nodemcu.readthedocs.io/en/master/
+
+https://github.com/nodemcu/nodemcu-devkit-v1.0
 
 ### Arduino
 
