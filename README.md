@@ -38,12 +38,16 @@ Pour commencer je pars d'un arduino UNO avec un programme dans le langage d'orig
 * nodemcu-tool
 
 
-## Schema de montage
+## Schema de montage Arduino
 
-<img src="PIR_buzzer_led_bb.png" alt="Montage arduino" width="400">
+<img src="./img/PIR_buzzer_led_bb.png" alt="Montage Arduino" width="400">
+
+## Schema de montage NodeMCU
+
+<img src="./img/NodeMcu_PIR_buzzer_led_bb.png" alt="Montage NodeMCU" width="400">
 
 
-## Source montage 
+## Source montage Arduino
 
 ### Montage que j'ai utilisé
 
@@ -59,6 +63,18 @@ git@github.com:apprensemble/Make_PIR_Sensor.git
 
 https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/using-a-pir
 
+
+## Source montage NodeMCU
+
+Je me suis appuyé sur le montage Arduino et l'API officiel NodeMCU qui se trouve dans les ressources en bas.
+C'était amusant :)
+
+### Photos de la V2 et la V3
+
+Pour la petite histoire la V1 est une version sans speaker, je pensais ne pas avoir assez de place sur le breadboard. La V2 est une version avec speaker et la V3 est une version ou j'ai optimisé le placement des composants.
+
+<img src="./img/nodemcu_v2.jpg" alt="Photo du Montage NodeMCU V2" width="400">
+<img src="./img/nodemcu_v3.jpg" alt="Photo du Montage NodeMCU V3" width="400">
 
 ## Ressources liés aux composants
 
