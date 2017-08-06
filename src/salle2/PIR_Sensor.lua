@@ -6,8 +6,9 @@ inputPin = 4
 speakerPin = 2
 lastState = gpio.LOW
 state = 0; -- variable val a l'origine mais etat c'est mieux, state en english
-data_presence = "mouvement detecté!\n"
-data_absence = "ça ne bouge plus...C'est vide\n"
+salle = "salle2"
+data_presence = salle..":mouvement detecté\n"
+data_absence = salle..":vide\n"
 ip_cible = "192.168.1.28"
 port_cible = 5000
 
